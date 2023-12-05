@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
 
 </head>
-<body>
+<body >
     <header class="header">
-        <!----<div class="header-top">--->
-        <!------    <div class="header-container container">--->
+      
                 <div class="nav container">
                     <a href="index.html" class="nav-logo">
                         <img src="logo.png" alt="" class="nav-logo-img">
@@ -22,22 +21,19 @@
                             <li class="nav-item">
                                 <a href="index.html" class="nav-link">Home</a>
                             </li>
-                          <!-----  <li class="nav-item">
-                                <a href="shop.html" class="nav-link" id="count1">Shop</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="login-register.html" class="nav-link">Login</a>
-                            </li>---->
+                          
                        </ul>
-                       <div class="header-search">
-                        <input type="text" placeholder="Search Here" class="form-input">
-                       <!----<div class="search-btn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </div>-->
+                       <div class="searchbar">
+                        <input type="text" placeholder="Search Here" id="searchBar">
+                        <i class="fa-solid fa-magnifying-glass glass"></i>
+                      
                        </div> 
 
-                       <div class="cart"><i class="fa-solid fa-cart-shopping"></i>
-                        <p id="count">0</p>
+                       <div class="cart">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        
+                        <p id="count" >0</p>
+                        
                         
                         
                     </div>                      
@@ -45,32 +41,24 @@
 </div>
 
                 
-                <!-----  <div class="header-actions">
-                        <a href="cart.html" class="header-action-btn">-------->
-
-                      <!-----      <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>--->
-
-                            
-                    <!------    <img src="cart.png" alt="">
-                      <span class="count">0</span>
-                    </div>-->
-                <!----- </nav> --->
-         
-            <!--</div>-->
-
+            
 
 
 
                             <div class="container">
                                 <div id = "root"></div>
+                                
                                 <div class="sidebar">
                                     <div class="head"><p>My Cart</p></div>
+
+                          
                                         
                                         
                                     <div id="cartItem">Your cart is empty</div>
+                                    
                                     <div class="foot">
                                         <h3>Total</h3>
-                                        <h2 id="total">$0.00</h2>
+                                        <h2 id="total">kr0.00</h2>
                                     </div>
                                     
                                 </div>
@@ -86,23 +74,9 @@
 
                             
          
-        <a href="login-register.html" class="header-action">
-            Log In / Sign Up
-        </a>
+       
     </header>
-<!-------------------------------------------------------->
-  <!-----  <div class="container">
-        <div id = "root"></div>
-        <div class="sidebar">
-            <div class="head"><p>My Cart</p></div>
-            <div id="cartItem">Your cart is empty</div>
-            <div class="foot">
-                <h3>Total</h3>
-                <h2 id="total">$0.00</h2>
-            </div>
-        </div>
 
-    </div>---->
     <script src="addtocart.js"></script>
 </body>
 </html>
